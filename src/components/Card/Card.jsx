@@ -21,7 +21,6 @@ const Card = ({cart}) => {
       <p>Shipping: ${totalShipping} </p>
       <p>Tax: ${tax.toFixed(2)} </p>
       <h6>Grand Total: {total.toFixed(2)} </h6>
-
     </div>
   );
 };
